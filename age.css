@@ -71,4 +71,14 @@ button:hover {
     .calculator{
         width:81%;
     }
+    input[type='date']{
+        margin: 30px 11px;
+    }
+    button{
+        margin-left: 10px;
+    }
+    #yearss,#dayss,#monthss{
+        height: 16vh;
+        width:12vh;
+    }
 }
