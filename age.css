@@ -48,7 +48,7 @@ button:hover {
 
 #yearss,
 #dayss,
-#monthss{
+#monthss {
     height: 20vh;
     width: 20vh;
     color: black;
@@ -58,10 +58,17 @@ button:hover {
     font-size: 30px;
     background-color: white;
     border-radius: 0.3rem;
-    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.32);
+    box-shadow: -1px 2px 5px 2px rgba(0, 0, 0, 0.32);
 }
-.headings{
+
+.headings {
     display: flex;
     justify-content: space-around;
-    margin-top:4vh;
+    margin-top: 4vh;
+}
+
+@media (max-width:768px) {
+    .calculator{
+        width:82%;
+    }
 }
